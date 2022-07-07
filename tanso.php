@@ -98,7 +98,7 @@
 <input type='hidden' name='UserOS' value='<?=$UserOS?>'>
 
 <body>
-	<div class="baljagook" style="position:absolute; top: 50px; right: 50px; width:180px;"><img src="footprint.png" style="width: 100%;"></div>
+    <div class="baljagook" style="position:absolute; top: 50px; right: 50px; width:180px;"><img src="footprint.png" style="width: 100%;"></div>
     <div id="wrap12">
         <h2>탄소발자국 계산기<span>Carbon Footprint Calculator</span></h2>
         <div class="content_box1">
@@ -115,36 +115,36 @@
                     <tbody>
                         <tr>
                             <td>
-								<select class="pipe_select" name='pipe' id="pipe" onchange="pipeSet()">
-									<option value =''>선택하세요</option>
-									<option name='pipe' value ='300'>300 mm</option>
-									<option name='pipe' value ='400' >400 mm</option>
-									<option name='pipe' value ='450'>450 mm</option>
-									<option name='pipe' value ='525'>525 mm</option>
-									<option name='pipe' value ='600'>600 mm</option>
-									<option name='pipe' value ='750'>750 mm</option>
-									<option name='pipe' value ='800'>800 mm</option>
-									<option name='pipe' value ='900'>900 mm</option>
-									<option name='pipe' value ='1000'>1000 mm</option>
-									<option name='pipe' value ='1050'>1050 mm</option>
-									<option name='pipe' value ='1200'>1200 mm</option>
-									<option name='pipe' value ='1350'>1350 mm</option>
-									<option name='pipe' value ='1400'>1400 mm</option>
-									<option name='pipe' value ='1500'>1500 mm</option>
-									<option name='pipe' value ='1600'>1600 mm</option>
-									<option name='pipe' value ='1650'>1650 mm</option>
-									<option name='pipe' value ='1800'>1800 mm</option>
-									<option name='pipe' value ='2000'>2000 mm</option>
-									<option name='pipe' value ='2100'>2100 mm</option>
-									<option name='pipe' value ='2200'>2200 mm</option>
-									<option name='pipe' value ='2400'>2400 mm</option>
-									<option name='pipe' value ='2600'>2600 mm</option>
-									<option name='pipe' value ='2700'>2700 mm</option>
-									<option name='pipe' value ='3000'>3000 mm</option>
-									<option name='pipe' value ='3300'>3300 mm</option>
-									<option name='pipe' value ='3600'>3600 mm</option>
-								</select>
-							</td>
+				<select class="pipe_select" name='pipe' id="pipe" onchange="pipeSet()">
+					<option value =''>선택하세요</option>
+					<option name='pipe' value ='300'>300 mm</option>
+					<option name='pipe' value ='400' >400 mm</option>
+					<option name='pipe' value ='450'>450 mm</option>
+					<option name='pipe' value ='525'>525 mm</option>
+					<option name='pipe' value ='600'>600 mm</option>
+					<option name='pipe' value ='750'>750 mm</option>
+					<option name='pipe' value ='800'>800 mm</option>
+					<option name='pipe' value ='900'>900 mm</option>
+					<option name='pipe' value ='1000'>1000 mm</option>
+					<option name='pipe' value ='1050'>1050 mm</option>
+					<option name='pipe' value ='1200'>1200 mm</option>
+					<option name='pipe' value ='1350'>1350 mm</option>
+					<option name='pipe' value ='1400'>1400 mm</option>
+					<option name='pipe' value ='1500'>1500 mm</option>
+					<option name='pipe' value ='1600'>1600 mm</option>
+					<option name='pipe' value ='1650'>1650 mm</option>
+					<option name='pipe' value ='1800'>1800 mm</option>
+					<option name='pipe' value ='2000'>2000 mm</option>
+					<option name='pipe' value ='2100'>2100 mm</option>
+					<option name='pipe' value ='2200'>2200 mm</option>
+					<option name='pipe' value ='2400'>2400 mm</option>
+					<option name='pipe' value ='2600'>2600 mm</option>
+					<option name='pipe' value ='2700'>2700 mm</option>
+					<option name='pipe' value ='3000'>3000 mm</option>
+					<option name='pipe' value ='3300'>3300 mm</option>
+					<option name='pipe' value ='3600'>3600 mm</option>
+				</select>
+			    </td>
                             <td><input type="text" name="p_length" id="p_length" value="<?=$p_length?>" onkeyup="pipeSet()">m</td>
                         </tr>
                     </tbody>
