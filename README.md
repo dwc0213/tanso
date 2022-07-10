@@ -6,4 +6,4 @@ carbon footprint calculator
 
 1. 동작원리는 파이프구경 변수로 선언된 pipe를 select을 하면 pipeSet() 함수를 수행해서 select한 변수로 pipeArr 배열에 담긴 숫자를 가져온다.
 2. 파이프길이 변수로 선언된 p_length에 숫자를 입력한다.
-3. 파이프길이를 숫자로 입력하면 onkeyup 이벤트를 통해 pipeSet()함수를 수행해서 소수점으로 표현하는 값은 math.round()함수를 사용했으며, 숫자를 리턴해야 하는 값은 parseInt 함    수를 사용했다. 
+3. 파이프길이를 숫자로 입력하면 onkeyup 이벤트를 통해 pipeSet()함수를 수행해서 소수점으로 표현하는 값은 math.round()함수를 사용했으며, 숫자를 리턴해야 하는 값은 parseInt 함수를 사    용했다.
